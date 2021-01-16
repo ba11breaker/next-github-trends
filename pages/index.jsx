@@ -23,17 +23,7 @@ events.forEach(event => {
 
 const Index = () =>  (
     <>
-    <Link href="/a?id=1" as="/a/1" title="AAA">
-        <Button>Click</Button>
-    </Link>
-    <Button onClick={() => {
-        Router.push({
-            pathname: '/a',
-            query: {
-                id: 2
-            }
-        }, 'a/2');
-    }}>Click me</Button>
+        <span>Index</span>
     </>
 )
 
